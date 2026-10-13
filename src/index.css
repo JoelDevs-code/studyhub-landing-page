@@ -1,0 +1,12 @@
+*{
+  margin: 0; padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: Proxima-Light;
+}
+/* @import 'tailwindcss'; */
+
+@font-face {font-family: Proxima-bold; src: url(../src/assets/fonts/FontsFree-Net-Proxima-Nova-Bold.otf);}
+@font-face {font-family: Proxima-Light; src: url(../src/assets/fonts/FontsFree-Net-Proxima-Nova-Light.otf);}
+
+body{margin: 0; padding: 0;}

@@ -1,0 +1,83 @@
+*{
+  margin: 0; padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: poppins-light;;
+  outline: none; border: none;
+}
+@import 'tailwindcss';
+
+@font-face {font-family: poppins-light; src: url(../src/assets/fonts/Poppins-Light.ttf);}
+@font-face {font-family: poppins-bold; src: url(../src/assets/fonts/Poppins-Medium.ttf);}
+
+
+body{margin: 0; padding: 0; overflow-x: hidden !important; background: #2085370D;}
+
+h1,h2,h3,h4,h5,h6{font-family: poppins-bold;}
+
+.auth-flow-col{padding: 2rem 5rem;}
+
+form{
+  padding: 2rem 1.5rem;
+  background: white;
+  width: 100%; height: auto;
+  border: 0.1rem var(--color-blue-200) solid;
+}
+
+.sign-in{
+  padding: 2rem 1.5rem;
+  background: white;
+  width: 30rem; height: auto;
+  border: 0.1rem var(--color-blue-200) solid;
+}
+
+.sign-in input{width: 100% !important;}
+.sign-in button{width: 100% !important;}
+
+.upload-pic-txt li{list-style: inside; line-height: 2.5rem;}
+
+.uploadImg{
+  margin: 0.5rem 0;
+  cursor: pointer;
+  width: 15rem !important;
+  background: var(--color-blue-200);
+}
+
+form input{
+  width: 33rem !important;
+  padding: 0.7rem 1rem;
+  border: 0.1rem var(--color-blue-200) solid;
+}
+
+form select{
+  width: 33rem !important;
+  padding: 0.7rem 1rem;
+  border: 0.1rem var(--color-blue-200) solid;
+}
+
+
+
+form em{
+  color: var(--color-red-500);
+}
+
+.submit-btn{
+  cursor: pointer;
+  width: 33rem !important;
+  height: 3rem; margin: 2rem 0;
+}
+
+@media (max-width: 1200px) {
+  form{width: 100% !important; margin-bottom: 2rem;}
+  .input-col-wrap{width: 100% !important; flex-wrap: wrap;}
+  .input-col{width: 100% !important;}
+  form input {width: 100% !important;}
+  form select {width: 100% !important;}
+}
+
+@media (max-width: 550px) {
+ 
+  .auth-flow-col{padding: 4rem 1rem;}
+  form{width: 100% !important; margin-bottom: 2rem;}
+  form{width: 100% !important; margin-bottom: 2rem;}
+}
