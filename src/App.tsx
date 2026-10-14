@@ -29,60 +29,51 @@ function App() {
 
   const faqs = [
     { 
-      question: "Is Sandwich AI just another inventory tool?", 
+      question: "What is StudyHub?", 
       answer: 
       `
-        Sandwich AI is far from being just another inventory tool, 
-        it is the system that brings your entire restaurant operation together. 
-        Sandwich AI connects inventory, procurement, kitchen workflows, and service
-        into one intelligent platform. That means fewer errors, less waste, 
-        tighter cost control, and complete visibility over your business — all in real time.
+        StudyHub is a student-focused learning platform that provides 
+        easy access to course materials, past examination questions, 
+        video tutorials, academic projects, coding source code, and other 
+        resources to support your learning journey.
       ` 
     },
     { 
-      question: "Will my team actually use it without friction?", 
+      question: "Who can use StudyHub?", 
       answer: 
       `
-        Yes. Sandwich AI is built for busy kitchens, not only technical teams. 
-        Every feature is designed to be simple, fast, and intuitive, so your staff 
-        can get started almost immediately. No steep learning curve — just smoother, 
-        more efficient daily operations from day one.
+        StudyHub is designed for students who want to improve their academic 
+        performance, access useful learning resources, and develop practical 
+        skills. The resources available may vary depending on your institution, 
+        course, or field of study.
       ` 
     },
     { 
-      question: "Who is Sandwich AI best suited for?", 
+      question: "How do I get started with StudyHub?", 
       answer: 
       `
-        It’s designed for restaurant owners and operators who want more control without 
-        added complexity. Whether you're running a single kitchen or scaling across 
-        multiple locations, Sandwich AI gives you the structure and insight needed to grow confidently.
+        Create an account or log in to your existing account. From your dashboard, 
+        you can explore the available resources, choose what you need, and access 
+        the relevant learning materials.
       `
     },
     { 
-      question: "How much control do I have over access and visibility?", 
+      question: "Can I access StudyHub on my phone?", 
       answer: 
       `
-        Complete control. You decide who sees what and who can take action. With flexible role-based permissions, 
-        every team member gets exactly the level of access they need  improving accountability while keeping your data secure.
+        StudyHub is intended to make learning resources easy to access. If your website 
+        is optimized for mobile devices, you can use a compatible smartphone, tablet, or 
+        computer to access the platform.
       ` 
     },
     { 
-      question: "Can I manage multiple branches from one place?", 
+      question: "Does StudyHub provide coding projects and source code?", 
       answer: 
       `
-        Absolutely. Sandwich AI allows you to oversee all your branches from a single, centralized dashboard. 
-        Track performance, enforce consistency, and make faster decisions across locations  
-        without losing control at the ground level.
+        Yes. Students can explore coding projects and access available source-code resources, 
+        including downloadable ZIP files where provided, to study how projects are structured 
+        and implemented.
       ` 
-    },
-    { 
-      question: "Can suppliers be part of the workflow?", 
-      answer: 
-      `
-        Yes, and that’s where efficiency really improves. By integrating suppliers directly into your system, 
-        you streamline ordering, reduce miscommunication, and speed up fulfillment. Everything becomes more predictable, 
-        transparent, and easier to manage.
-      `
     },
   ];
 
